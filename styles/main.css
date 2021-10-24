@@ -1,0 +1,73 @@
+
+@font-face {
+    font-family: 'font';
+    src: url('/assets/Damion-Regular.ttf');
+  }
+*{
+    font-family: 'font';
+}
+main{
+    position: absolute;
+    z-index: 0;
+}
+.bodyt{
+    left: 20%;
+    position: absolute;
+    bottom: -10px;
+    z-index: 5;
+}
+#information-container p{
+    font-size: 1.2em;
+}
+h3{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    text-align: center;
+    font-size: 3em;
+}
+#information-container{
+    z-index: 0;
+    position: absolute;
+    padding-left: 5px;
+    padding-right: 0px;
+    opacity: 0;
+    background-color: white;
+    width: 98%;
+    height: 100%;
+    transition: all 0.5s;
+
+}
+a{
+        padding: 10px;
+        border-radius: 20px;
+        background-color: #ec008c;
+    text-decoration: none;
+    color: white;
+}
+#informations{
+    margin: auto;
+    width: 90%;
+}
+h1{
+    
+
+    height: 50px;
+    width: 50px;
+  
+}
+h2{
+    position: absolute;
+    right: 30px;
+    top: 10px;
+}
+#info-button{
+    z-index: 5;
+    position: absolute;
+    color: #ec008c;
+    border-radius: 100%;
+    right: 0px;
+    bottom: 0px;
+    width: 20vw;
+    height: 20vw;
+    transition: all 0.3s;
+}

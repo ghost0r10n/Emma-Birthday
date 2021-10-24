@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sei stato invitato</title>
+  <link rel="stylesheet" href="/styles/main.css">
+  <style>
+    body {
+      font-family: "Gill Sans", sans-serif;
+      overflow: hidden;
+      padding: 0;
+      margin: 0;
+    }
+  </style>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.0/p5.min.js"></script>
+  <script src="scripts/confetti.js"></script>
+  <script src="scripts/button.js"></script>
+  <script src="scripts/sketch.js"></script>
+</head>
+
+<body onload="waitingFun()">  
+  <p class='bodyt'>Clicca qui per maggiori informazioni</p>
+  <div id="info-button" onclick="showInformation(0)">
+
+   <center><h1>i</h1></center>
+  </div>
+  <div id='information-container'>
+    <div id='informations'>
+      <br><br><br>
+    <h2 id='close-button' onclick="showInformation(1)">X</h2>
+    <p>
+      Siete stati invitati al Battesimo e al compleanno di <h3>Emma</h3></p>
+      <p>Il giorno 14 novembre alle ore 11.30 presso la chiesa "Pieve di Santa Maria Bambina", ci sara' il battesimo<br><br>
+      E con gioia, dopo la cerimonia, vi aspettiamo al ristorante "Sottacqua", per festeggiare il suo compleanno e il suo sacramento.</p>
+        <p>
+          Cliccando qui sotto sarete diretti all'app di navigazione per venire a festeggiare con noi.
+      </p><br>
+      <center><a href="https://goo.gl/maps/UqSg1YrLipM4HUB9A">VIENI A FESTEGGIARE CON NOI</a></center>
+    </div>
+  </div>
+
+</body>
+
+</html>
